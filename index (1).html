@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Priti Kasar | Senior QA Analyst, eCommerce &amp; Automation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap">
+<style>
+:root{--bg:#f6f8fb;--ink:#14213d;--mut:#55627a;--line:#d6dde8;--card:#fff;--pass:#12803c;--accent:#2b59c3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1624;--ink:#e8edf7;--mut:#9aa7bf;--line:#26324a;--card:#16203a;--pass:#4ade80;--accent:#7aa2ff}}
+:root[data-theme="dark"]{--bg:#0f1624;--ink:#e8edf7;--mut:#9aa7bf;--line:#26324a;--card:#16203a;--pass:#4ade80;--accent:#7aa2ff}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.15;margin:0}
+main{max-width:920px;margin:0 auto;padding:0 20px 64px}
+section{padding-top:56px}
+h2{font-size:1.7rem;margin-bottom:20px}
+.hero{padding-top:64px}
+h1{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:700;letter-spacing:-.02em}
+.role{color:var(--accent);font:600 1.15rem "Bricolage Grotesque",sans-serif;margin:10px 0 18px}
+.lead{max-width:64ch;color:var(--mut);font-size:1.1rem}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.facts span{border:1px solid var(--line);background:var(--card);border-radius:6px;padding:6px 12px;font-size:.95rem}
+.run{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.runhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line)}
+.runhead p{margin:0;color:var(--mut);font-size:.95rem}
+button{font:600 1rem "Source Sans 3",sans-serif;background:var(--accent);color:#fff;border:0;border-radius:6px;padding:9px 18px;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+button[disabled]{opacity:.6;cursor:default}
+ol{list-style:none;margin:0;padding:0}
+.step{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;padding:12px 18px;border-bottom:1px solid var(--line)}
+.step:last-child{border-bottom:0}
+.dot{width:18px;height:18px;border-radius:50%;border:2px solid var(--line)}
+.step.run1 .dot{border-color:var(--accent);border-top-color:transparent;animation:spin .7s linear infinite}
+.step.ok .dot{background:var(--pass);border-color:var(--pass)}
+.st{color:var(--mut);font-size:.9rem;min-width:56px;text-align:right}
+.step.ok .st{color:var(--pass);font-weight:600}
+.sum{padding:12px 18px;background:var(--bg);color:var(--mut);font-size:.95rem;min-height:48px}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.step.run1 .dot{animation:none}}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.box{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:16px 18px}
+.box h3{font-size:1.05rem;margin-bottom:6px}
+.box p{margin:0;color:var(--mut);font-size:.98rem}
+ul{margin:0;padding-left:20px}
+li{margin:7px 0}
+.job{border-left:3px solid var(--accent);padding-left:18px}
+.job .meta{color:var(--mut);margin:4px 0 12px}
+.proj h3{font-size:1.05rem}
+.proj .tag{color:var(--mut);font-size:.9rem}
+.award{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:10px 0}
+.award b{font-weight:600}
+a{color:var(--accent)}
+footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);color:var(--mut)}
+.step.bad .dot{background:#d93636;border-color:#d93636}
+.step.bad .st{color:#d93636;font-weight:600}
+.step.bad{background:rgba(217,54,54,.08)}
+h1 .wave{display:inline-block;transform-origin:70% 70%;animation:wave 2.2s ease-in-out 1}
+@keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(14deg)}20%,40%{transform:rotate(-8deg)}50%{transform:rotate(10deg)}}
+.joke{font:600 1.15rem "Bricolage Grotesque",sans-serif;margin:18px 0 0}
+.facts span:nth-child(1){border-color:#2b59c3}.facts span:nth-child(2){border-color:#12803c}.facts span:nth-child(3){border-color:#e0a100}
+.box{transition:transform .15s}.box:hover{transform:translateY(-3px) rotate(-.4deg)}
+.field{position:relative;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;padding:22px;border:2px dashed var(--line);border-radius:10px;background:var(--card);min-height:150px;align-items:center}
+.bug{font-size:2.2rem;line-height:1;background:none;padding:6px;border-radius:8px;cursor:crosshair}
+.bug:hover{transform:scale(1.2) rotate(12deg)}
+.bug.dead{pointer-events:none;animation:pop .35s forwards}
+@keyframes pop{50%{transform:scale(1.6)}100%{transform:scale(0);opacity:0}}
+.score{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px}
+.score p{margin:0;font-weight:600}
+.conf{position:fixed;top:-30px;font-size:1.6rem;pointer-events:none;z-index:9;animation:fall 2.2s ease-in forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(540deg);opacity:.9}}
+@media(prefers-reduced-motion:reduce){h1 .wave,.bug.dead,.conf{animation:none}.box:hover,.bug:hover{transform:none}.conf{display:none}}
+.lab{font-size:1.15rem;margin:28px 0 6px}
+.lab:first-of-type{margin-top:0}
+.hint{color:var(--mut);margin:0 0 12px;font-size:.98rem}
+.cart{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:8px;max-width:560px}
+.row{display:flex;justify-content:space-between;gap:12px;width:100%;text-align:left;background:none;color:var(--ink);border:1px solid transparent;border-radius:6px;padding:10px 12px;font-weight:400}
+.row:hover{border-color:var(--line)}
+.row.found{background:rgba(217,54,54,.1);border-color:#d93636}
+.row.fine{background:rgba(18,128,60,.1);border-color:var(--pass)}
+.row.go{margin-top:6px;background:var(--accent);color:#fff;justify-content:center;font-weight:600}
+.row.go.found{outline:3px solid #d93636}
+.msg{margin:10px 0 0;min-height:52px;font-weight:600}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.opt{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.opt:hover{border-color:var(--accent)}
+.qq{font-size:1.1rem;font-weight:600;margin:0}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+  <h1>Priti Kasar <span class="wave" aria-hidden="true">👋</span></h1>
+  <p class="role">Senior QA Analyst for eCommerce, with Playwright &amp; Selenium automation</p>
+  <p class="lead">I test online stores end to end, from catalog and search to cart, checkout, payment and the Magento admin, and automate the journeys that matter most so every release ships with less manual regression.</p>
+  <p class="joke">I break things politely, so your customers never have to. 🐞</p>
+  <div class="facts">
+    <span>🛒 5+ years in eCommerce QA</span>
+    <span>⚡ 30–40% less manual regression effort (reported)</span>
+    <span>🏆 QA of the Year 2025</span>
+  </div>
+</header>
+
+<section>
+  <h2>A critical journey, the way I automate it</h2>
+  <div class="run" id="runner">
+    <div class="runhead">
+      <p>Illustrative run of the customer journey I automate in Playwright and Selenium.</p>
+      <button id="go" type="button">Run journey</button>
+    </div>
+    <ol id="steps">
+      <li class="step"><span class="dot"></span><span>Log in with a registered customer</span><span class="st">Waiting</span></li>
+      <li class="step"><span class="dot"></span><span>Search the catalog and open a product page</span><span class="st">Waiting</span></li>
+      <li class="step"><span class="dot"></span><span>Select options and add the product to cart</span><span class="st">Waiting</span></li>
+      <li class="step"><span class="dot"></span><span>Verify cart totals and quantities</span><span class="st">Waiting</span></li>
+      <li class="step"><span class="dot"></span><span>Complete checkout and payment</span><span class="st">Waiting</span></li>
+      <li class="step"><span class="dot"></span><span>Confirm the order in the admin panel</span><span class="st">Waiting</span></li>
+    </ol>
+    <div class="sum" id="sum" aria-live="polite">Press Run journey to see the flow.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Bug hunt: squash them before release</h2>
+  <div class="field" id="field"></div>
+  <div class="score"><p id="score" aria-live="polite">8 bugs hiding in the build. Click to squash.</p><button id="again" type="button" hidden>Plant new bugs</button></div>
+</section>
+
+<section>
+  <h2>Skills lab: try a day of my job</h2>
+  <h3 class="lab">Find the defects in this cart</h3>
+  <p class="hint">Exploratory testing: click anything that looks wrong. There are 5 defects, and a few things are fine.</p>
+  <div class="cart" id="cart">
+    <button type="button" class="row" data-d="1" data-n="Calculation defect: 2 × $199.00 is $398.00, not $298.00."><span>Craft Cutting Machine · 2 × $199.00</span><span>$298.00</span></button>
+    <button type="button" class="row" data-d="1" data-n="Boundary defect: a negative quantity was accepted. Quantity needs validation."><span>Vinyl Pack · Qty</span><span>-1 · -$12.00</span></button>
+    <button type="button" class="row" data-d="1" data-n="Sign defect: a discount should reduce the total, not add to it."><span>Coupon SAVE10</span><span>+$39.80</span></button>
+    <button type="button" class="row" data-d="0" data-n="Looks correct. Checked and no defect."><span>Shipping</span><span>Free over $50</span></button>
+    <button type="button" class="row" data-d="1" data-n="Date logic defect: 30 Feb does not exist."><span>Estimated delivery</span><span>30 Feb</span></button>
+    <button type="button" class="row go" data-d="1" data-n="Copy defect: typo in a customer-facing button. Low severity, but visible."><span>Proceed to Chekout</span></button>
+  </div>
+  <p class="msg" id="cartmsg" aria-live="polite">0 of 5 defects found.</p>
+
+  <h3 class="lab">Triage the bug: how severe is it?</h3>
+  <p class="hint">Defect management: pick a severity for each bug report.</p>
+  <div id="q1"></div>
+
+  <h3 class="lab">Name the API status code</h3>
+  <p class="hint">API checks in Postman: pick the status code you would expect.</p>
+  <div id="q2"></div>
+</section>
+
+<section>
+  <h2>What I do</h2>
+  <div class="grid">
+    <div class="box"><h3>Functional &amp; regression testing</h3><p>Integration, system and end-to-end testing across catalog, search, cart, checkout, payment and admin workflows.</p></div>
+    <div class="box"><h3>Test automation</h3><p>Playwright and Selenium WebDriver for critical user journeys, with test data and locator strategies, plus debugging of failing scripts.</p></div>
+    <div class="box"><h3>Magento</h3><p>Testing Magento configuration and admin-panel functionality, from requirements through builds.</p></div>
+    <div class="box"><h3>Cross-browser &amp; cross-device</h3><p>Checks across browsers and devices before release.</p></div>
+    <div class="box"><h3>Release &amp; UAT support</h3><p>Sprint testing, release validation, production-readiness checks, client demos and UAT walkthroughs.</p></div>
+    <div class="box"><h3>Defects &amp; traceability</h3><p>Defects tracked in Jira and Zephyr, retesting after fixes, and coverage traced back to requirements.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="job">
+    <h3>Quality Assurance Analyst / QA Automation</h3>
+    <p class="meta">Magneto IT Solutions, Pune · July 2021 to present</p>
+    <ul>
+      <li>Own functional, integration, regression, system and end-to-end testing for eCommerce applications.</li>
+      <li>Build and maintain Playwright and Selenium automation for critical journeys, reducing repetitive manual regression effort by about 30–40%.</li>
+      <li>Turn requirements and user stories into test scenarios, test cases and test data with traceable coverage.</li>
+      <li>Investigate failures, log defects in Jira and Zephyr, and work with developers on fixes and retesting.</li>
+      <li>Validate APIs in Postman, including status codes and integration checks.</li>
+      <li>Use AI-assisted workflows to brainstorm edge cases, refine scenarios and speed up script debugging.</li>
+      <li>Guide junior team members and take part in sprint planning, stand-ups and retrospectives.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="box proj"><h3>Silhouette America</h3><p class="tag">USA · crafting machines and accessories</p><p>Tested catalog, login, product selection, cart and checkout; automated key customer journeys.</p></div>
+    <div class="box proj"><h3>Foodentyco</h3><p class="tag">Italy · Magento grocery store</p><p>Built scenarios from requirements; tested Magento configuration and admin functionality.</p></div>
+    <div class="box proj"><h3>DOD Solutions</h3><p class="tag">USA · gas-detection solutions</p><p>Functional, integration and regression testing with defect tracking.</p></div>
+    <div class="box proj"><h3>95 Nutrition</h3><p class="tag">USA · meal preparation</p><p>Tested listings, ordering, checkout and admin; verified cross-browser behavior.</p></div>
+    <div class="box proj"><h3>Louped</h3><p class="tag">USA · pre-owned jewelry marketplace</p><p>Tested catalog, search and checkout; supported UAT and release validation.</p></div>
+    <div class="box proj"><h3>Petzone</h3><p class="tag">Pet products store</p><p>Tested catalog, cart, checkout, payment and admin; ran cross-browser and cross-device checks.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Tools</h2>
+  <p><b>Automation:</b> Playwright, Selenium WebDriver · <b>Management:</b> Jira, Zephyr · <b>API:</b> Postman · <b>CI/CD &amp; code:</b> Git/GitHub, Jenkins, GitHub Actions · <b>Platform:</b> Magento Admin Panel · <b>Learning:</b> API testing, SQL, Java</p>
+</section>
+
+<section>
+  <h2>Recognition &amp; education</h2>
+  <div class="award"><b>QA of the Year, Magneto IT Solutions</b><span>2025</span></div>
+  <div class="award"><b>Star Performer, Magneto IT Solutions</b><span>2022</span></div>
+  <div class="award"><b>Certificate of Appreciation, Amazon</b><span>2021</span></div>
+  <div class="award"><b>Salesforce Certified Associate</b><span>2023</span></div>
+  <div class="award"><b>B.Sc. Computer Science, C.M.C.S. College, Nashik</b><span>2015–2018</span></div>
+</section>
+
+<footer>
+  <p><b>Let's talk.</b> I'm open to Senior Automation QA and QA Lead roles.<br>
+  <a href="mailto:pritiakasar@gmail.com">pritiakasar@gmail.com</a> · <a href="tel:+918668370837">+91 86683 70837</a></p>
+</footer>
+</main>
+<script>
+(function(){
+  var btn=document.getElementById('go'),rows=document.querySelectorAll('#steps .step'),sum=document.getElementById('sum');
+  function confetti(){var e=['🎉','✅','🐞','⭐','🚀'];for(var k=0;k<24;k++){var c=document.createElement('span');c.className='conf';c.textContent=e[k%e.length];c.style.left=Math.random()*100+'vw';c.style.animationDelay=(Math.random()*.6)+'s';document.body.appendChild(c);setTimeout(function(n){n.remove()},3200,c)}}
+  window.confetti=confetti;
+  var wait=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+  btn.addEventListener('click',async function(){
+    btn.disabled=true;sum.textContent='Running…';
+    rows.forEach(function(r){r.className='step';r.querySelector('.st').textContent='Waiting'});
+    for(var i=0;i<rows.length;i++){
+      rows[i].className='step run1';rows[i].querySelector('.st').textContent='Running';
+      await wait(650);
+      if(i===3){
+        rows[i].className='step bad';rows[i].querySelector('.st').textContent='Bug!';
+        sum.textContent='🐞 Found one: the cart total is off. Logged in Jira, fixed by the developer, retesting…';
+        await wait(1800);
+        rows[i].className='step run1';rows[i].querySelector('.st').textContent='Retest';
+        await wait(650);
+      }
+      rows[i].className='step ok';rows[i].querySelector('.st').textContent='Passed';
+    }
+    sum.textContent='🎉 6 of 6 steps passed after one bug was caught and retested. This is a demonstration of the flow, not live test results.';
+    confetti();
+    btn.disabled=false;btn.textContent='Run again';
+  });
+})();
+(function(){
+  var rows=document.querySelectorAll('#cart .row'),m=document.getElementById('cartmsg'),n=0;
+  rows.forEach(function(r){r.addEventListener('click',function(){
+    if(r.classList.contains('found')||r.classList.contains('fine'))return;
+    if(r.dataset.d==='1'){n++;r.classList.add('found');m.textContent='🐞 '+r.dataset.n+' ('+n+' of 5 found)';
+      if(n===5){m.textContent+=' All 5 found! I check the maths, signs, boundaries, dates and copy on every build. 🎯';confetti()}}
+    else{r.classList.add('fine');m.textContent='✅ '+r.dataset.n}
+  })});
+})();
+(function(){
+  function quiz(id,items,opts,doneMsg){
+    var box=document.getElementById(id),i=0,score=0;
+    function show(){
+      if(i>=items.length){box.innerHTML='<p class="qq">'+score+' of '+items.length+' correct. '+doneMsg+'</p><div class="opts"><button type="button" class="opt" id="'+id+'r">Play again</button></div>';
+        document.getElementById(id+'r').onclick=function(){i=0;score=0;show()};if(score===items.length)confetti();return}
+      var it=items[i],h='<p class="qq">'+it[0]+'</p><div class="opts">';
+      opts.forEach(function(o){h+='<button type="button" class="opt">'+o+'</button>'});
+      box.innerHTML=h+'</div><p class="msg" aria-live="polite"></p>';
+      var fb=box.querySelector('.msg'),tried=false;
+      box.querySelectorAll('.opt').forEach(function(b){b.onclick=function(){
+        if(b.textContent===it[1]){if(!tried)score++;fb.textContent='✅ '+it[2];
+          box.querySelectorAll('.opt').forEach(function(x){x.disabled=true});
+          var nx=document.createElement('button');nx.type='button';nx.className='opt';nx.textContent='Next';nx.onclick=function(){i++;show()};fb.after(nx)}
+        else{tried=true;fb.textContent='❌ Not quite. Try again.'}}});
+    }
+    show();
+  }
+  quiz('q1',[
+    ['Every customer gets an error when paying at checkout.','Critical','Revenue is blocked, so it is a release blocker.'],
+    ['The footer link colour is slightly off in Safari.','Minor','Cosmetic only, with no effect on buying.'],
+    ['A coupon applies twice when the cart page is refreshed.','Major','Money is lost, but there is a workaround and only some orders are affected.'],
+    ['The admin cannot export orders for a date range.','Major','A key admin task is broken, though orders still work.']
+  ],['Critical','Major','Minor'],'Severity is about impact; priority is about timing, and I help the team agree on both.');
+  quiz('q2',[
+    ['Create an order successfully.','201','201 Created: a new resource now exists.'],
+    ['Call the API with an expired token.','401','401 Unauthorized: the credentials are missing or no longer valid.'],
+    ['Look up a SKU that does not exist.','404','404 Not Found: the resource is not there.'],
+    ['Send a payload missing a required field.','400','400 Bad Request: the input is invalid.']
+  ],['200','201','400','401','404'],'Status codes, response bodies and integrations are all part of my checks.');
+})();
+(function(){
+  var f=document.getElementById('field'),sc=document.getElementById('score'),ag=document.getElementById('again'),left=0;
+  var hide=['🐛','🪲','🐞','🦗'];
+  function plant(){f.innerHTML='';left=8;ag.hidden=true;sc.textContent='8 bugs hiding in the build. Click to squash.';
+    for(var i=0;i<8;i++){var b=document.createElement('button');b.type='button';b.className='bug';b.textContent=hide[i%4];b.setAttribute('aria-label','Squash bug '+(i+1));
+      b.style.marginTop=(Math.random()*40)+'px';
+      b.addEventListener('click',function(){this.classList.add('dead');left--;
+        if(left>0){sc.textContent=left+' bug'+(left>1?'s':'')+' left.'}else{sc.textContent='All 8 squashed. Zero bugs reach production. Ship it! 🚀';ag.hidden=false;confetti()}});
+      f.appendChild(b)}}
+  ag.addEventListener('click',plant);plant();
+})();
+</script>
+</body>
+</html>
